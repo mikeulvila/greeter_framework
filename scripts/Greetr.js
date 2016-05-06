@@ -6,6 +6,23 @@
 
     }
 
+    var supportedLanguages = ['en', 'es'];
+
+    var greetings = {
+      en: 'Hello',
+      es: 'Hola'
+    };
+
+    var formalGreetings = {
+      en: 'Greetings',
+      es: 'Saludos'
+    };
+
+    var logMessages = {
+      en: 'Logged in',
+      es: 'Inicio sesion'
+    };
+
     // set prototype on object
     Greetr.prototype = {};
     // set init function
